@@ -1,0 +1,121 @@
+@media all and (max-width: 768px) {
+
+
+    .main-element {
+        height: 350px;
+        display: inline-block;
+    }
+    .content-left {
+        float: left;
+        width: 30px;
+    }
+    .content-left p#altcoins {
+        top: 45%;
+        left: -10px;
+        font-size: 10px;
+    }
+    .icons-data#circle {
+        display: none;
+    }
+    .main .main-element .content-main { 
+        margin-left: 35px;
+        margin-top: 10px;
+        width: 700px;
+        height: 60%;
+    }
+
+    .main .main-element .border,
+    .main .main-element .content-value,
+    .main .main-element .content {
+        float: left;
+    }
+
+    .main .main-element .content-main{
+        margin-left:0;
+        padding-left: 50px;
+        width: 100%;
+    }
+
+    .content-main h3 {
+        font-size: 18px;
+    }
+    .content-main .icons {
+        font-size: 14px;
+    }
+    .content-main .icons img {
+        width: 23px;
+        height: 23px;
+    }
+    .content,
+    .content-value {
+        height: 30%;
+        bottom: 0;
+        font-size: 12px;
+    }
+
+    .content-value{
+        width: 35%;
+    }
+    .content{
+        width: 25%;
+    }
+
+    span{
+        font-size:18px;
+    }
+    .content h2{
+        font-size:18px;
+    }
+
+    .M3,
+    .M12,
+    .M30,
+    .YTD,
+    .border.invest,
+    .border.main
+    {
+        display: none;
+    }
+    .invest .content-data .invest-icons a#weight{
+        display: none;
+    }
+
+    .invest .content-data .invest-icons a#eye{
+        position: absolute; 
+        right: 50px;
+        top:-150px;
+        height:30px;
+        width:30px;
+    }
+    .invest .content-data .invest-icons a#eye img{
+        height:30px;
+        width: 35px;
+    }
+    .content.invest{
+        position: static;
+        width: 100%;
+    }
+
+    .content .content-data button{
+        width: 80%;
+        height: 35px;
+        font-size:12px;
+    }
+
+    .content.invest .content-data{
+        position: static;
+        margin-top:-150px;
+        margin-left: 53%;
+        padding: 1px;
+        width: 100%;
+    }
+
+    .content.invest .content-data .border-bottom-responsive{
+        margin-top:10px;
+        border-bottom: 1px solid #979797;
+        opacity: 0.2;
+        width:80%;
+        margin-left:10%;
+    }
+
+}
